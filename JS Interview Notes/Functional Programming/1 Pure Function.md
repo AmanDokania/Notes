@@ -1,0 +1,3 @@
+- It should return **same output** for same input.
+- It should modify anything outside it.(*No SideEffects*)
+- Even `console.log` is not pure because it is affecting outside world by logging.

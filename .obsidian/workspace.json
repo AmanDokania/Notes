@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "e87641e1de8402ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "2611367101fe7fdb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d78c2fa46227d71d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ab4afe06f42e0759",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb2bf0bd25538cf3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "921750bd600c8a50",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "50b899684e785c17",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "aa8f618d8daead5b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "2ee4ba8262ad5f9c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 245.5
+  },
+  "right": {
+    "id": "4ac8225212ce4bbd",
+    "type": "split",
+    "children": [
+      {
+        "id": "07e3ef92bdc4f3ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39115766d99bbc4c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bcf8a248ef8d0dbf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2fa69e4fd88e4ac3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f4cfdeab790add7e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "JS Interview Notes/Pasted image 20230820162342.png"
+              }
+            }
+          },
+          {
+            "id": "45a831fef8b29167",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "921750bd600c8a50",
+  "lastOpenFiles": [
+    "strategy.md",
+    "img/eventloop.png.md",
+    "img",
+    "Untitled/Personal Project.md",
+    "Untitled",
+    "Untitled.md",
+    "Untitled.canvas",
+    "Spring Boot/oauth 2.0.md",
+    "Spring Boot/Transaction Management with JPA.md",
+    "Spring Boot/Swagger and Open API 3.md",
+    "Spring Boot/Spring Profile.md",
+    "Spring Boot/Spring Data JPA.md",
+    "Spring Boot/Spring Data  JDBC.md",
+    "Spring Boot/Spring Cache.md",
+    "Spring Boot/Spring Batch.md",
+    "Spring Boot/Some Important Notes.md",
+    "Spring Boot/Some Annotation.md",
+    "Spring Boot/Scheduler.md",
+    "Spring Boot/Rest  API.md",
+    "Spring Boot/Redis.md",
+    "Spring Boot/Reading Data From Properties file.md",
+    "Spring Boot/Logging.md",
+    "Spring Boot/JWT.md",
+    "Spring Boot/JPA Auditing.md",
+    "Spring Boot/Fundamentals.md",
+    "Spring Boot/Email.md",
+    "Spring Boot/Dependency Injection and Command line runner.md",
+    "Spring Boot/Bean Validation and Exception Handling.md",
+    "Spring Boot/Basic Authentication.md",
+    "Spring Boot",
+    "Ruby",
+    "Rails/Views",
+    "Rails/Testing",
+    "Rails/Model",
+    "Rails/JWT Authentication",
+    "Rails/Controller",
+    "Rails",
+    "JS Interview Notes/Pasted image 20240113145758.png",
+    "JS Interview Notes/Pasted image 20240113143727.png",
+    "JS Interview Notes/Pasted image 20231227130453.png",
+    "JS Interview Notes/Pasted image 20231227130445.png",
+    "JS Interview Notes/Pasted image 20231224192235.png",
+    "JS Interview Notes/Pasted image 20231224192022.png",
+    "JS Interview Notes/Pasted image 20231224191944.png",
+    "JS Interview Notes/Pasted image 20231224191931.png",
+    "JS Interview Notes/Pasted image 20231224190011.png",
+    "JS Interview Notes/Pasted image 20231224185957.png",
+    "Design Patterns/DESIGN PATTERNS.canvas"
+  ]
+}

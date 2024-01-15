@@ -1,0 +1,30 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path: /Design Pattern",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -0.7,
+  "nodeSizeMultiplier": 1.53777627118644,
+  "lineSizeMultiplier": 1.8365096359743,
+  "collapse-forces": false,
+  "centerStrength": 0.514275517487509,
+  "repelStrength": 9.02926481084939,
+  "linkStrength": 0.719842969307637,
+  "linkDistance": 140,
+  "scale": 0.6316046762907555,
+  "close": false
+}

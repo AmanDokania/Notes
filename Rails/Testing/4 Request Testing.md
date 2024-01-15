@@ -1,0 +1,2 @@
+- It is almost same as controller testing
+- But instead of defining the **controller action** we give **route path** instead, so that we can test route also along with  controller. 

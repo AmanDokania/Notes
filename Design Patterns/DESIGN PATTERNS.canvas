@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"type":"file","file":"Design Patterns/Singleton Design Pattern.md","id":"de4c8bd774ae61c1","x":-2480,"y":335,"width":480,"height":280},
+		{"type":"file","file":"Design Patterns/FactoryMethod Design Pattern.md","id":"a397e6f28303c523","x":-1821,"y":345,"width":603,"height":270},
+		{"type":"file","file":"Design Patterns/Adapter Design Pattern.md","id":"14d3f4e6f45bdbe8","x":-1014,"y":345,"width":612,"height":270},
+		{"type":"file","file":"Design Patterns/Decorator Pattern.md","id":"06dce6cf00f63c1c","x":-254,"y":345,"width":644,"height":270},
+		{"type":"file","file":"Design Patterns/Structural.md","id":"6bdd671b3d5214ec","x":-708,"y":-240,"width":776,"height":260,"color":"5"},
+		{"type":"file","file":"Design Patterns/Strategy Design Pattern.md","id":"2a4a0e1ec6cc1a5f","x":640,"y":345,"width":594,"height":270},
+		{"type":"file","file":"Design Patterns/Behavioral.md","id":"21e23e1ba0b47634","x":1377,"y":-235,"width":653,"height":260,"color":"4"},
+		{"type":"file","file":"Design Patterns/Observer Design Pattern.md","id":"06e8645cc31bc62c","x":1390,"y":345,"width":640,"height":270},
+		{"type":"file","file":"Design Patterns/Command Design Pattern.md","id":"5c5e9dad9925dcd2","x":2160,"y":345,"width":640,"height":270},
+		{"type":"file","file":"Design Patterns/Designing Patterns.md","id":"742f0a229159a614","x":-680,"y":-960,"width":720,"height":280,"color":"1"},
+		{"type":"file","file":"Design Patterns/Facade Design Pattern.md","id":"cac6e10ddc55357d","x":-254,"y":1080,"width":720,"height":280},
+		{"type":"file","file":"Design Patterns/Proxy Design Pattern.md","id":"e40d18e22daa10df","x":-1150,"y":880,"width":748,"height":320},
+		{"type":"file","file":"Design Patterns/Bridge Design Pattern.md","id":"dfd06f4504fe0c37","x":640,"y":1040,"width":640,"height":320},
+		{"type":"file","file":"Design Patterns/Creational.md","id":"9572a99f96b0b71e","x":-2239,"y":-365,"width":720,"height":260,"color":"2"}
+	],
+	"edges":[
+		{"id":"56e4e88c3773c53e","fromNode":"742f0a229159a614","fromSide":"bottom","toNode":"9572a99f96b0b71e","toSide":"top"},
+		{"id":"a6ad2c95f7bcf935","fromNode":"742f0a229159a614","fromSide":"bottom","toNode":"21e23e1ba0b47634","toSide":"top"},
+		{"id":"3da4d54eab725ced","fromNode":"742f0a229159a614","fromSide":"bottom","toNode":"6bdd671b3d5214ec","toSide":"top"},
+		{"id":"276e3427180745a7","fromNode":"9572a99f96b0b71e","fromSide":"bottom","toNode":"de4c8bd774ae61c1","toSide":"top"},
+		{"id":"f8020d1524470f22","fromNode":"9572a99f96b0b71e","fromSide":"bottom","toNode":"a397e6f28303c523","toSide":"top"},
+		{"id":"ae5afc7ff428537b","fromNode":"21e23e1ba0b47634","fromSide":"bottom","toNode":"2a4a0e1ec6cc1a5f","toSide":"top"},
+		{"id":"d826c87939f18e27","fromNode":"21e23e1ba0b47634","fromSide":"bottom","toNode":"06e8645cc31bc62c","toSide":"top"},
+		{"id":"333367860703d4b1","fromNode":"6bdd671b3d5214ec","fromSide":"bottom","toNode":"14d3f4e6f45bdbe8","toSide":"top"},
+		{"id":"1761d89048664c70","fromNode":"6bdd671b3d5214ec","fromSide":"bottom","toNode":"06dce6cf00f63c1c","toSide":"top"},
+		{"id":"1a1d77bfc83a91b8","fromNode":"21e23e1ba0b47634","fromSide":"bottom","toNode":"5c5e9dad9925dcd2","toSide":"top"},
+		{"id":"7bb61ce06e0d1bc7","fromNode":"6bdd671b3d5214ec","fromSide":"bottom","toNode":"e40d18e22daa10df","toSide":"top"},
+		{"id":"cbf1e21b61ccc03b","fromNode":"6bdd671b3d5214ec","fromSide":"bottom","toNode":"cac6e10ddc55357d","toSide":"top"},
+		{"id":"e8420195ad45bf26","fromNode":"6bdd671b3d5214ec","fromSide":"bottom","toNode":"dfd06f4504fe0c37","toSide":"top"}
+	]
+}
