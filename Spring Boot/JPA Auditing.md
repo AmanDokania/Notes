@@ -1,8 +1,8 @@
 
-Refer  ppt to konw about basics why we need JPA auditing 
+Refer  ppt to know about basics why we need JPA auditing 
 
 To implement  JPA auditing 
-WE can make as base class and we can inherit this class form  child class on that we want to implement  auditing
+We can make a base class and we can inherit this class form  child class on that we want to implement  auditing
 
 ```Java
 @EntityListeners(AuditingEntityListener.class)  
@@ -33,7 +33,7 @@ public abstract class Auditable<U> {
 
 @CreatedDate   and  @LastModifiedDate  these annotation populate data form system time 
 
-But in case of @CreatedBy  and  @LastModifiedBy   we need to create a bean of AuditorAware
+But in case of @CreatedBy  and  @LastModifiedBy   we need to create a **bean** of AuditorAware
 
 ```Java
 public class AuditorAwareImpl implements AuditorAware<Long> {  
@@ -91,7 +91,8 @@ public interface ProductRepository extends RevisionRepository<Product, Integer,I
     }
 ```
 
-This annotation will enable the JPA repository using **EnversRevisionRepositoryFactoryBean** this class
+This annotation will enable the JPA repository for JPA Inverse. 
+Using **EnversRevisionRepositoryFactoryBean** this class
 ```Java
 @EnableJpaRepositories(repositoryFactoryBeanClass = EnversRevisionRepositoryFactoryBean.class)
 ```

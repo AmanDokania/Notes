@@ -1,19 +1,19 @@
 ![[Pasted image 20230423161229.png]]
 
-If we are using Plain JDBC then we need to maintain Transaction in such a way for each method
+If we are using Plain JDBC then we need to maintain Transaction in such a way for each method.
 ![[Pasted image 20230903183059.png]]
 
 If we are using Plain JPA (without spring framework) then we need to maintain Transaction in such a way for each method
 
-There are lot of duplicate code we need to write again and again but in case of spring boot we just need to use @Transactional annotation
-
 ![[Pasted image 20230903183541.png]]
 
+There are lot of duplicate code we need to write again and again but in case of spring boot we just need to use @Transactional annotation.
+
 Important Note:-
-**Transaction can't handle Checked exception it's always handle RuntimeException**
+**Transaction can't handle Checked exception it's always handle RuntimeException**.
 
 
-Spring Data JPA provide default transaction for all methods implemented in SimpleJPARepository class  
+Spring Data JPA provide default transaction for all methods implemented in SimpleJPARepository class  .
 @Transactional{
 readOnly=true
 }
@@ -29,14 +29,14 @@ if we want to perform several operation in a single transaction then we put all 
 
 ![[Pasted image 20230423163500.png]]
 
-@EnableTransactionManagement   we need to use this annotation with configuration file to enabled the transaction in spring but in spring boot it automatically enable the transaction so we don't need to use this annotation
+**@EnableTransactionManagement**   we need to use this annotation with configuration file to enabled the transaction in spring but in spring boot it automatically enable the transaction so we don't need to use this annotation
 
 ### **5.3. [Read-Only Transactions]**(https://www.baeldung.com/transaction-configuration-with-jpa-and-spring#3-read-only-transactions)
 
 
 The _readOnly_ flag usually generates confusion, especially when working with JPA. From the Javadoc:
 
-The fact is that **we can't be sure that an insert or update won't occur when the _readOnly_ flag is set.** This behavior is vendor-dependent, whereas JPA is vendor agnostic.
+The fact is that **we can't be sure that an insert or update won't occur when the _readOnly_ flag is set.** This behavior is vendor-dependent, whereas JPA is vendor agnostic. 
 
 It's also important to understand that **the _readOnly_ flag is only relevant inside a transaction.** If an operation occurs outside of a transactional context, the flag is simply ignored. A simple example of that would call a method annotated with:
 

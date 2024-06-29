@@ -4,7 +4,7 @@
 **There are some drawbacks of Spring Data JDBC**
 1. No automatic table creation
 2. No association mapping
-3. Not allowed to play with object
+3. Not direct access to play with object
 
 some points are there which are not included in slides (slides of udemy course).
 
@@ -35,7 +35,7 @@ Life cycle of entity >>
 
 ![[Pasted image 20230416180624.png]]
 
-![[Pasted image 20230420121743.png]]
+![[Pasted image 20240128131434.png]]
 
 ***spring data jpa  and jpa api's completely different, java api provides persistent provider***
 EntityManager class  is a part of JPA API 

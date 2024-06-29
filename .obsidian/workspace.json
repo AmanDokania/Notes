@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "2611367101fe7fdb",
+        "id": "51a53970ab27ed99",
         "type": "tabs",
         "children": [
           {
-            "id": "d78c2fa46227d71d",
+            "id": "9d77f82741b9f44b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Spring Boot/Spring Data JPA.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Spring Boot/Spring Data JPA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Spring Boot/Spring Data JPA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS Interview Notes/Pasted image 20230820162342.png"
+                "file": "Spring Boot/Spring Data JPA.md"
               }
             }
           },
@@ -161,37 +167,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "921750bd600c8a50",
+  "active": "9d77f82741b9f44b",
   "lastOpenFiles": [
-    "strategy.md",
-    "img/eventloop.png.md",
-    "img",
-    "Untitled/Personal Project.md",
-    "Untitled",
-    "Untitled.md",
-    "Untitled.canvas",
-    "Spring Boot/oauth 2.0.md",
-    "Spring Boot/Transaction Management with JPA.md",
-    "Spring Boot/Swagger and Open API 3.md",
-    "Spring Boot/Spring Profile.md",
-    "Spring Boot/Spring Data JPA.md",
-    "Spring Boot/Spring Data  JDBC.md",
-    "Spring Boot/Spring Cache.md",
-    "Spring Boot/Spring Batch.md",
-    "Spring Boot/Some Important Notes.md",
-    "Spring Boot/Some Annotation.md",
-    "Spring Boot/Scheduler.md",
-    "Spring Boot/Rest  API.md",
-    "Spring Boot/Redis.md",
-    "Spring Boot/Reading Data From Properties file.md",
-    "Spring Boot/Logging.md",
-    "Spring Boot/JWT.md",
+    "Postgres/Basic Commands.md",
+    "Postgres/Query to delete duplicate attendance record and keep one instance of duplicate record.md",
+    "ALMS/Review Meeting.md",
+    "Excalidraw/Command Pattern Diagram.md",
+    "Design Patterns/Command Design Pattern.md",
+    "Git/Git Branch.md",
+    "Git/Git Configuration.md",
+    "Git/Git Merg.md",
+    "Git/Git Revert.md",
+    "Git/Git Checkout.md",
     "Spring Boot/JPA Auditing.md",
-    "Spring Boot/Fundamentals.md",
-    "Spring Boot/Email.md",
-    "Spring Boot/Dependency Injection and Command line runner.md",
-    "Spring Boot/Bean Validation and Exception Handling.md",
-    "Spring Boot/Basic Authentication.md",
+    "Java/Clone a Method.md",
+    "Java/Solid Principle.md",
+    "Java/Singleton Desgn Pattern.md",
+    "Java/Design Pattern.md",
+    "Design Patterns/Facade Design Pattern.md",
+    "Design Patterns/FactoryMethod Design Pattern.md",
+    "Excalidraw/Strategy Pattern Implemented.md",
+    "Excalidraw/Adapter Pattern Diagram.md",
+    "Excalidraw/Normal Inheritance.md",
+    "Design Patterns/Strategy Design Pattern.md",
+    "Design Patterns/Proxy Design Pattern.md",
+    "Excalidraw/Observer Pattern.md",
+    "Untitled 1.canvas",
+    "Excalidraw/Drawing 2024-01-31 12.57.53.excalidraw.md",
+    "Design Patterns/DESIGN PATTERNS.canvas",
+    "Design Patterns/Creational.md",
+    "Postgres/Backup and Restore Databases.md",
+    "JS Interview Notes/Pasted image 20240128131434.png",
+    "JS Interview Notes/Pasted image 20240128131423.png",
+    "JS Interview Notes/Pasted image 20230830101523.png",
+    "JS Interview Notes/Pasted image 20230420130852.png",
+    "img",
+    "Untitled",
+    "Untitled.canvas",
     "Spring Boot",
     "Ruby",
     "Rails/Views",
@@ -205,11 +217,6 @@
     "JS Interview Notes/Pasted image 20231227130453.png",
     "JS Interview Notes/Pasted image 20231227130445.png",
     "JS Interview Notes/Pasted image 20231224192235.png",
-    "JS Interview Notes/Pasted image 20231224192022.png",
-    "JS Interview Notes/Pasted image 20231224191944.png",
-    "JS Interview Notes/Pasted image 20231224191931.png",
-    "JS Interview Notes/Pasted image 20231224190011.png",
-    "JS Interview Notes/Pasted image 20231224185957.png",
-    "Design Patterns/DESIGN PATTERNS.canvas"
+    "JS Interview Notes/Pasted image 20231224192022.png"
   ]
 }

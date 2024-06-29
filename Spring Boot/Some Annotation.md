@@ -1,4 +1,4 @@
-@CreationTimeStamp and @UpdateTimeStamp  >> we mainly use to create and update the time while inserting the data in table
+ @CreationTimeStamp and @UpdateTimeStamp  >> we mainly use to create and update the time while inserting the data in table
 ![[Pasted image 20230422150605.png]]
 
 ![[Pasted image 20230422173757.png]]
@@ -69,4 +69,20 @@ create bean on the basis of  some condition on bean
 ![[Pasted image 20230422160047.png]]
 
 
-@Primary  and @Qualifier() annotation use to resolve ambiguity in case of multiple implementation of an interface
+@Primary  and @Qualifier() annotation use to resolve ambiguity in case of multiple implementation of an interface.
+
+**@EnableConfigurationProperties** :- This class is likely used for reading configuration properties from a configuration source (like application.properties or application.yml) with a prefix of "authorization". The `@ConfigurationProperties` annotation is used to bind the properties under the specified prefix to the fields of the `ServiceConfig` class.
+```
+@Component  
+@EnableConfigurationProperties  
+@ConfigurationProperties(prefix="authorization")  
+public class ServiceConfig {  
+  @NotNull  private String scheme;  
+  @NotNull  private String host;  
+  @NotNull  private String path;
+  }
+```
+
+```
+authorization.scheme=myScheme authorization.host=myHost authorization.path=myPath
+```
