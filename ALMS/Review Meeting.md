@@ -79,7 +79,7 @@
 	1. Email Notification for exhausted AUR limit sent to the Employees even after configuring "Maximum AUR allowed for missed or incorrect attendance"=0 in AMS Settings.
 
 
-## JANUARY 2023 - MARCH 2023 
+## JANUARY 2024 - MARCH 2024 
 1. Worked on Carry Forward
 	1. Implement a confirmation pop-up for Update Carry Forward.
 	2. Worked on Annual Leave History UI to fetch les related data with carry forward.
@@ -139,3 +139,51 @@ Designed comprehensive documentation outlining the process of carrying forward a
 
 Prioritized understanding all requirements thoroughly through in-depth discussions with stakeholders. Ensured clarity and alignment of objectives before proceeding with implementation.
 Prepared comprehensive documentation for new features from the user's point of view. Documented user stories, use cases, and workflows to provide clear guidance and facilitate seamless adoption of new functionalities.
+
+## APRIL 2024 - JUNE 2024
+1. Start to working on Shift and Time-Zone functionality.
+	1. Start to gathering requirement what all major changes we need to do in application to incorporate multiple shift.
+	2. Have multiple technical design discussions on shift functionality.
+	3. Start to prepare test cases to handle different shifts of different timezone (Calculate shift start time, end time, shift time, au time)
+	4. Prepare scenarios of DST (Day light saving time).
+	5. Explore java apis (java.time) to handle date, time and timezone in efficient ways.
+	6. Start to preparing technical documents of existing functionality. (Daily Attendance Closure Job, Monthly Attendance closure)
+	7. Start to working on CRUD operations of AU and Shift.
+	8. After completion of CRUD operations start to prepare documentation of schedule plans. Added test case to incorporate au and shift in group hierarchy. Explore the code base of schedule plans.
+	9. Start to work on adding AU and Shift schedule plans.
+		1. Changes in existing functionality.
+		2. Associate AU and Shift in to get current inherited plan of a given group id, list tree view
+		3. Stuck in special cases for associating AU and shift with schedule plans. Discussed with KS and perform changes .
+		4. Apply validation for creation of schedule plans.
+		5. Apply validation for the creation of first group schedule plans.While creating first group schedule plan all fields should be mandatory to be filled.
+	10. After completion of schedule plans association, start to working on changes impacted of daily attendance closure date on plans and etc.. functionality.
+	11. Enhancement related to multiple shift 
+		1. Identify and list down the signature of all required util methods of shift timing.
+		2.  Added util methods required for shift-related date and time operations.
+		3. Created entity, dto, controller and service of attendance closure log table. Perform CRUD operation of closure logs.
+		4. Conned with ﻿Shobhit Dixit﻿ to discuss the changes required of shift in wrs user and employee details .
+		5. Prepare Recursive SQL query to fetch shift and AU from group hierarchic.
+		6. Create abstract method to get AU and Shift from wrs user.
+		7. Create abstract/util methods required in plans to fetch AU and Shift.
+		8. Create some unit methods to identify that is plans is of past, future and on-going.
+		9. Implement changes related to AU and Shift in plan validations.
+		10. Added shift instance dto in plan validator context and used it’s properties in plan validations.
+		11. Remove all usages of LocalDate.now() (Current Date), LocalDateTime.now() (Current Date Time), and LocalTime.now() (Current Time) from plan validations.
+	12. List down all the changes in punch in/out related APIs to support multiple shift.
+	13. List down all usages of shifts in various plans.List down the description of all usages, how can we refactor these functions.
+	14. List down the required changes on UI regarding shift at broad level.
+	15. List down all the usages of LocalDate.now() in validator and plans related files.
+2. Update changes of mutual exclusion (after completion of comp-off tasks), After deployment provide support to QA and fix bug reported by QA. 
+	1. (Apply indexing on attendance records)
+	2. Inspect issue arise due to importing of attendance records. 
+	3. Perform testing of whole application on beta.
+	4. Remove commented code with this Epic.
+3. Fix production issue EH attendance records is not creating if approved after daily attendance closure.
+4. Fix issue of creating multiple EH plan creation. (Disabled submit button to avoid multiple creation of EH on same day.) 
+5. Fix issue in daily attendance report (regarding in time, regarding number of cell style can be up to a limit). 
+6. Added a note of elective holiday in closure summery report.
+7. Inspect wrs api “get Group Hierarchy Tree For Org“ is not working with app token.Add a parameter of organisation id .
+8. Explore validation of daily attendance closure on leave plans and EH plans actions during execution.
+9. Prevent execution of Daily Attendance Closure Job for future dates.
+10. Prepare a documentation for enhancement of admin reports as discussed. List down challenges and update as per KS feedback.
+

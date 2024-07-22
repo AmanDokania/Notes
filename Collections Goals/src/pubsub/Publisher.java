@@ -1,3 +1,5 @@
+package pubsub;
+
 public class Publisher implements Runnable{
     private final PubSub pubsub;
     private final String topic;
